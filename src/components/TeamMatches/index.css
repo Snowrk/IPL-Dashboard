@@ -10,17 +10,18 @@
   padding: 2rem;
   min-height: 100vh;
   text-align: center;
-  font-family: 'Bree Serif';
+  /* font-family: 'Bree Serif'; */
 }
 
 .pie-con {
   background-color: #0f172a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
   padding: 2rem;
-  font-family: 'Bree Serif';
+  /* font-family: 'Bree Serif'; */
   border-radius: 1rem;
+  width: fit-content;
 }
 
 .div {

@@ -1,13 +1,11 @@
 /* Write your CSS here */
 .latest-match {
   color: white;
-  font-family: 'Bree Serif';
+  /* font-family: 'Bree Serif'; */
   text-align: left;
   background-color: #0f172a;
   border-radius: 1rem;
 }
-
-
 
 .bx-1 {
   display: flex;
