@@ -1,5 +1,5 @@
 // Write your code here
-import {Link} from 'react-router-dom'
+import Link from 'next/link'
 import './index.css'
 
 const TeamCard = props => {
@@ -8,7 +8,7 @@ const TeamCard = props => {
 
   return (
     <li className="card">
-      <Link className="bx" to={`/team-matches/${id}`}>
+      <Link className="bx" href={`/team-matches/${id}`}>
         <img src={teamImageUrl} alt={name} />
         <p>{name}</p>
       </Link>
