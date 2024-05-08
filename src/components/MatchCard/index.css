@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.match-card {
+  text-align: center;
+  color: white;
+  font-family: 'Bree Serif';
+  background-color: #0f172a;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.match-card > img {
+  width: 80px;
+  object-fit: contain;
+}
+
+.match-card :nth-child(2) {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.match-card > p {
+  font-size: small;
+}
+
+.red {
+  color: #e31a1a;
+}
+
+.green {
+  color: #18ed66;
+}
